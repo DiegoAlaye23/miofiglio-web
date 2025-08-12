@@ -11,7 +11,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-crema via-crema/10 to-transparent" />
       <div className="max-w-5xl mx-auto px-4 -mt-20 relative">
-        <div className="bg-crema/95 border border-espresso/10 rounded-2xl p-6 md:p-8 shadow-lg">
+        <div className="bg-crema/80 backdrop-blur-md border border-espresso/10 rounded-2xl p-6 md:p-8 shadow-lg animate-fade-in-up">
           <h1 className="font-serif text-3xl md:text-5xl text-espresso">
             Pan artesanal, tradición y sabor
           </h1>
