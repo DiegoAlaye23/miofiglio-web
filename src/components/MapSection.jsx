@@ -1,7 +1,7 @@
 export default function MapSection() {
   return (
-    <section id="ubicacion" className="bg-white border-t border-espresso/10">
-      <div className="max-w-6xl mx-auto px-4 py-10">
+    <section id="ubicacion" className="border-t border-espresso/10">
+      <div className="max-w-6xl mx-auto px-4 py-16">
         <h2 className="font-serif text-2xl md:text-3xl text-espresso">Dónde estamos</h2>
         <p className="text-carbon/70 mt-1">
           Tres Arroyos, Buenos Aires. Horarios y dirección exacta a confirmar.
