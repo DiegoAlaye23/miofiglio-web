@@ -1,18 +1,20 @@
 import Hero from "../components/Hero";
 import ProductsGrid from "../components/ProductsGrid";
+import AboutSection from "../components/AboutSection";
 import MapSection from "../components/MapSection";
 import { products } from "../data/products";
 
 export default function Home() {
   return (
-    <>
+    <div className="space-y-24">
       <Hero />
       <ProductsGrid
         items={products.slice(0, 4)}
         title="Productos destacados"
         subtitle="Una muestra de lo que horneamos a diario."
       />
+      <AboutSection />
       <MapSection />
-    </>
+    </div>
   );
 }
