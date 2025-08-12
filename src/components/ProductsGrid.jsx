@@ -2,8 +2,8 @@ import ProductCard from "./ProductCard";
 
 export default function ProductsGrid({ items, title, subtitle }) {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-10">
-      <header className="mb-6">
+    <section className="max-w-6xl mx-auto px-4 py-16">
+      <header className="mb-8">
         <h2 className="font-serif text-2xl md:text-3xl text-espresso">{title}</h2>
         {subtitle && <p className="text-carbon/70 mt-1">{subtitle}</p>}
       </header>

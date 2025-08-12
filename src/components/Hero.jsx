@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative isolate">
+    <section className="relative isolate pb-16">
       <div
         className="h-[48vh] md:h-[60vh] w-full bg-center bg-cover"
         style={{
