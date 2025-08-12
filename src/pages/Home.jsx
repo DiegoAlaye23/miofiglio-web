@@ -6,7 +6,7 @@ import { products } from "../data/products";
 
 export default function Home() {
   return (
-    <>
+    <div className="space-y-24">
       <Hero />
       <ProductsGrid
         items={products.slice(0, 4)}
@@ -15,6 +15,6 @@ export default function Home() {
       />
       <AboutSection />
       <MapSection />
-    </>
+    </div>
   );
 }

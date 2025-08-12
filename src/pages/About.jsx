@@ -2,7 +2,7 @@ import Reveal from "../components/Reveal";
 
 export default function About() {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-16">
+    <section className="max-w-6xl mx-auto px-4 py-24">
       <div className="grid md:grid-cols-2 gap-8 items-center">
         <Reveal className="h-full">
           <img

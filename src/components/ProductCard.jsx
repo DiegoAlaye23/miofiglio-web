@@ -1,6 +1,6 @@
 export default function ProductCard({ item }) {
   return (
-    <article className="group bg-crema rounded-2xl border border-espresso/10 overflow-hidden shadow-sm transition hover:shadow-lg hover:-translate-y-1">
+    <article className="group bg-crema rounded-2xl border border-espresso/10 overflow-hidden shadow-sm transition-transform hover:shadow-lg hover:-translate-y-1">
       <div className="overflow-hidden">
         <img
           src={item.image}

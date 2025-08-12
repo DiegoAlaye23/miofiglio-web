@@ -6,8 +6,10 @@ const NavItem = ({ to, children, onClick }) => (
     to={to}
     onClick={onClick}
     className={({ isActive }) =>
-      `block px-3 py-2 rounded-xl transition ${
-        isActive ? "bg-oliva text-white" : "hover:bg-oliva/15"
+      `px-4 py-2 rounded-full font-medium transition-colors ${
+        isActive
+          ? "bg-oliva text-white"
+          : "text-espresso/80 hover:bg-oliva/15 hover:text-espresso"
       }`
     }
   >
@@ -19,7 +21,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-30 bg-crema/95 backdrop-blur border-b border-espresso/10 shadow-sm">
+    <header className="sticky top-0 z-30 bg-crema/80 backdrop-blur-md border-b border-espresso/10 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-baseline gap-2">
           <span className="font-serif text-2xl text-espresso">Mio Figlio</span>
@@ -45,7 +47,7 @@ export default function Navbar() {
             />
           </svg>
         </button>
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-6">
           <NavItem to="/">Inicio</NavItem>
           <NavItem to="/productos">Productos</NavItem>
           <NavItem to="/nosotros">Nosotros</NavItem>
@@ -53,7 +55,7 @@ export default function Navbar() {
         </nav>
       </div>
       {open && (
-        <nav className="md:hidden px-4 pb-4 flex flex-col gap-1 animate-fade-in-up">
+        <nav className="md:hidden px-4 pb-4 flex flex-col gap-2 animate-fade-in-up">
           <NavItem to="/" onClick={() => setOpen(false)}>
             Inicio
           </NavItem>

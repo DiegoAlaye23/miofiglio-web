@@ -3,7 +3,7 @@ import { products } from "../data/products";
 
 export default function Products() {
   return (
-    <div className="pt-6">
+    <div className="pt-24">
       <ProductsGrid
         items={products}
         title="Catálogo"
