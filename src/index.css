@@ -8,5 +8,5 @@
 
 html, body, #root {
   height: 100%;
-  background: linear-gradient(to bottom, theme('colors.crema'), #f2e9db);
+  background: linear-gradient(to bottom, #f9f0e1, #e6d8c0);
 }

@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 export default function MapSection() {
   return (
-    <section id="ubicacion" className="border-t border-espresso/10 bg-crema">
+    <section id="ubicacion" className="border-t border-espresso/10 bg-crema/60">
       <div className="max-w-6xl mx-auto px-4 py-16">
         <Reveal>
           <h2 className="font-serif text-2xl md:text-3xl text-espresso">Dónde estamos</h2>
